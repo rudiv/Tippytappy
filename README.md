@@ -2,6 +2,10 @@
 
 This tiny lil library just renders Tiptap's JSON to a HTML string.
 
+## Install
+
+Install `R.Tippytappy` from NuGet.
+
 ## Usage
 
 ```csharp
