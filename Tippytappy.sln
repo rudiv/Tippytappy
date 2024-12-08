@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tippytappy", "src\Tippytappy\Tippytappy.csproj", "{137C3C1C-E053-4C35-AB8F-6614D19AED86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6A9270E-55FB-4D8F-A80D-6A0BB4CEED86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E31C9A00-055D-4830-8C04-14F88C8F9868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tippytappy.Test", "Tippytappy.Test\Tippytappy.Test.csproj", "{A2EDF5F6-A4F7-4283-82F9-FF185BCA5FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137C3C1C-E053-4C35-AB8F-6614D19AED86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137C3C1C-E053-4C35-AB8F-6614D19AED86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137C3C1C-E053-4C35-AB8F-6614D19AED86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137C3C1C-E053-4C35-AB8F-6614D19AED86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EDF5F6-A4F7-4283-82F9-FF185BCA5FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EDF5F6-A4F7-4283-82F9-FF185BCA5FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EDF5F6-A4F7-4283-82F9-FF185BCA5FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EDF5F6-A4F7-4283-82F9-FF185BCA5FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{137C3C1C-E053-4C35-AB8F-6614D19AED86} = {A6A9270E-55FB-4D8F-A80D-6A0BB4CEED86}
+		{A2EDF5F6-A4F7-4283-82F9-FF185BCA5FE7} = {E31C9A00-055D-4830-8C04-14F88C8F9868}
+	EndGlobalSection
+EndGlobal
