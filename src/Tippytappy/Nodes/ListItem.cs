@@ -7,7 +7,9 @@ public class ListItem : ITiptapNode
     public void Render(TiptapJsonNode node, RenderContext context, Action next)
     {
         context.AppendLine("<li>");
+        context.ToggleChildElementRender();
         next();
+        context.ToggleChildElementRender();
         context.AppendLine("</li>");
     }
 }

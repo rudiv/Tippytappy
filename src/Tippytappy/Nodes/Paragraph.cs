@@ -5,8 +5,15 @@ public class Paragraph : ITiptapNode
     public string Name => "paragraph";
     public void Render(TiptapJsonNode node, RenderContext context, Action next)
     {
-        context.Append("<p>");
+        if (context.ShouldRenderInnerNode())
+        {
+            context.Append("<p>");
+        }
+
         next();
-        context.AppendLine("</p>");
+        
+        if (context.ShouldRenderInnerNode()) {
+            context.AppendLine("</p>");
+        }
     }
 }

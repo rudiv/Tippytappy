@@ -216,19 +216,15 @@ public class DocumentTests
                    <hr/>
                    <ul>
                    <li>
-                   <p>Has lists</p>
-                   </li>
+                   Has lists</li>
                    <li>
-                   <p><strong>A</strong> <em>second</em><strong><em>!</em></strong></p>
-                   </li>
+                   <strong>A</strong> <em>second</em><strong><em>!</em></strong></li>
                    </ul>
                    <ol start="1">
                    <li>
-                   <p>And <strong>numbered</strong> lists</p>
-                   </li>
+                   And <strong>numbered</strong> lists</li>
                    <li>
-                   <p>Number <strong><em>2</em></strong>!</p>
-                   </li>
+                   Number <strong><em>2</em></strong>!</li>
                    </ol>
                    <pre><code>and code</code></pre>
                    <blockquote><p>and quotes</p>
